@@ -1,0 +1,21 @@
+bekericenemies.health_bottle1=Fully restores your health.
+bekericenemies.health_reset_bottle1=Resets your max and current health to 20.
+bekericenemies.max_health_bottle1=Sets your max health to infinity.
+bekericenemies.max_health_bottle2=BE CAREFUL NOT TO USE WHEN VANILLA HEARTS ARE NOT HIDDEN.
+bekericenemies.strength_bottle1=Sets your attack damage to infinity.
+bekericenemies.strength_reset_bottle1=Resets your attack damage to 1.
+
+entity.Statue.name=Security-Statue
+entity.Statue2.name=Security-Statue-2
+entity.Statue3.name=Security-Statue-3
+entity.SecurityC.name=Security-Cube
+entity.SecurityF.name=Security-Fire
+entity.SecurityFR.name=Security-Fire-Red
+entity.SecurityG.name=Security-Gravity
+entity.SecurityMN.name=Security-Mechanical-Nakumeji
+
+item.be_health_bottle.name=Health Bottle
+item.be_health_reset_bottle.name=Health Reset Bottle
+item.be_max_health_bottle.name=Max Health Bottle
+item.be_strength_bottle.name=Strength Bottle
+item.be_strength_reset_bottle.name=Strength Reset Bottle
