@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " A "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dye",
+      "data": 1
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bekericenemies:invincibility_breaker"
+  }
+}
