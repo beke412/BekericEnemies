@@ -44,7 +44,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.io.File;
 
-@Mod(modid = "bekericenemies", version = "1.1", name = "BekericEnemies", guiFactory = "bekerickibami.bekericenemies.gui.BekeGuiFactory")
+@Mod(modid = "bekericenemies", version = "1.1.1", name = "BekericEnemies", guiFactory = "bekerickibami.bekericenemies.gui.BekeGuiFactory")
 public class BekericEnemies {
     public static Configuration config;
     public static BekeConfig CONFIG = new BekeConfig();
@@ -99,6 +99,7 @@ public class BekericEnemies {
     public static final Item BE_STRENGTH_RESET_BOTTLE = new BEStrengthResetBottle();
     public static final Item BE_INVINCIBILITY_REMOVAL_BOTTLE = new BEInvincibilityRemovalBottle();
     public static final Item INVINCIBILITY_BREAKER = new InvincibilityBreaker();
+    public static final Item INVINCIBILITY_ERASER = new InvincibilityEraser();
 
     @Mod.EventHandler
     public void construct(FMLConstructionEvent event) {
@@ -147,6 +148,7 @@ public class BekericEnemies {
         event.getRegistry().register(BE_STRENGTH_RESET_BOTTLE);
         event.getRegistry().register(BE_INVINCIBILITY_REMOVAL_BOTTLE);
         event.getRegistry().register(INVINCIBILITY_BREAKER);
+        event.getRegistry().register(INVINCIBILITY_ERASER);
     }
 
     @SubscribeEvent
@@ -355,5 +357,6 @@ public class BekericEnemies {
         ModelLoader.setCustomModelResourceLocation(BE_STRENGTH_RESET_BOTTLE, 0, new ModelResourceLocation(new ResourceLocation("bekericenemies","be_strength_reset_bottle"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(BE_INVINCIBILITY_REMOVAL_BOTTLE, 0, new ModelResourceLocation(new ResourceLocation("bekericenemies","be_invincibility_removal_bottle"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(INVINCIBILITY_BREAKER, 0, new ModelResourceLocation(new ResourceLocation("bekericenemies","invincibility_breaker"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(INVINCIBILITY_ERASER, 0, new ModelResourceLocation(new ResourceLocation("bekericenemies","invincibility_eraser"), "inventory"));
     }
 }

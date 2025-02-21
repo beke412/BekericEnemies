@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "#",
-    "A"
+    "##",
+    " A",
+    " A"
   ],
   "key": {
     "#": {
@@ -15,6 +15,6 @@
     }
   },
   "result": {
-    "item": "bekericenemies:invincibility_breaker"
+    "item": "bekericenemies:invincibility_eraser"
   }
 }
