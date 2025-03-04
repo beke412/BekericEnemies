@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "bekericenemies:items/invincibility_breaking_bow_pulling_2"
+    }
+}
